@@ -1,4 +1,4 @@
-package lesson.fourth;
+package lesson.fourth.interfaces;
 
 public abstract class AbstrClass {
 
