@@ -14,7 +14,7 @@ public class PingPong {
 
             if (otvet.equals("Да")) {
 
-                PingPongGame game = new PingPongGame(); // Не работает повтор игры, походу с модификаторами что-то напутал
+                PingPongGame game = new PingPongGame();
                 game.startGame();
 
                 System.out.println("Хотите начать заново? Да/Нет");
