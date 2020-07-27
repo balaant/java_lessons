@@ -14,10 +14,11 @@ public class PingPong {
 
             if (otvet.equals("Да")) {
 
-                PingPongGame game = new PingPongGame(); // Не работает повтор игры, походу с иодификаторами что-то напутал
+                PingPongGame game = new PingPongGame(); // Не работает повтор игры, походу с модификаторами что-то напутал
                 game.startGame();
 
                 System.out.println("Хотите начать заново? Да/Нет");
+                game.newGame();
 
             } else if (otvet.equals("Нет")) {
                 System.out.println("Игра окончена");

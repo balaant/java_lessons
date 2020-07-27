@@ -14,4 +14,7 @@ public class PingPongGame {
         player1.start();
         player2.start();
     }
+    void newGame(){
+        ball.newG();
+    }
 }

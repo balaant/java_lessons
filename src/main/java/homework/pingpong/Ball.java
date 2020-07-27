@@ -26,4 +26,9 @@ public class Ball {
     boolean isInGame() {
         return (kicks < gameTime);
     }
+
+    void newG() {
+        kicks = 0;
+        gameTime = (int) (Math.random() * 25);
+    }
 }
